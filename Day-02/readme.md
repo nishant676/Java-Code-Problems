@@ -10,14 +10,14 @@
  Explanation:
  The words in s are ["Hello", "how" "are", "you", "Contestant"].
  The first 4 words are ["Hello", "how", "are", "you"].
- Hence, you should return "Hello how are you"
+ Hence, you should return "Hello, how are you?"
 
- # IMP Method and Use cases
+ # IMP Method and Use Cases
 
 > [!TIP]
 >## String.join():-
-> => U have bunch of things and u want to add some separator between them
->  => String separator = ", " // This is what you want between your pieces
+> => U have a bunch of things and u want to add a separator between them
+> => String separator = ", " // This is what you want between your pieces
 
 >**e.g:-**
 >String[] words = {"apple", "banana", "cherry"}; // Your pieces of text
@@ -26,7 +26,7 @@
 
 > [!TIP]  
 > ## Arrays.copyOf():-
-> =>If u have a lsit of things and from that list if u want full list or first few items then use.
+If you have a list of things and want a full list or the first few items, then use it.
 > => It take 2 params [1st is original array , 2nd is last index u wnat]
 > **e.g:-**
 >int[] originalArray = {10, 20, 30, 40, 50};

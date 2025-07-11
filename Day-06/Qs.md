@@ -35,4 +35,4 @@ equals the numerical value of targetWord, or false otherwise.
 when rounded down, so we return 33
 
 >[!NOTE]
-> ** Multiply before int divide to avoid problems**
+> **Multiply before int divide to avoid problems**
